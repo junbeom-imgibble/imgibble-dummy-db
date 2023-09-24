@@ -21,7 +21,7 @@ app.all("/*", (req, res, next) => {
 app.use(express.static("public"))
 
 app.listen(3001, (req, res) => {
-    console.log("http://localhost:30001")
+    console.log("http://localhost:3001")
 })
 
 app.get("/drafts", (req, res) => {
