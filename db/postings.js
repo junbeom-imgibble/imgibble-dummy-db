@@ -1,8 +1,7 @@
-const serverURL = "http://localhost:3001"
 export const drafts = [
   {
     id: "1",
-    thumbnail: serverURL + "/thumbnails/1.jpg",
+    thumbnail: "/thumbnails/1.jpg",
     name: "TITLE1",
     label: "EVENT",
     feeds: [
@@ -11,7 +10,7 @@ export const drafts = [
         name: "FEED1",
         duration: 5,
         type: "VIDEO",
-        content: serverURL + "/feeds/1.mp4",
+        content: "/feeds/1.mp4",
         position: {
           width: 100,
           position_x: 0,
@@ -25,7 +24,7 @@ export const drafts = [
             position_y: 0,
             width: 12,
             height: 12,
-            sticker: serverURL + "/stickers/1.svg"
+            sticker: "/stickers/1.svg"
           },
           {
             id: "2",
