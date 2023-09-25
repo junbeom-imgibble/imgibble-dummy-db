@@ -1,7 +1,9 @@
+const serverURL = "https://port-0-imgibble-dummy-db-54ouz2lllrv2ned.sel3.cloudtype.app"
+
 export const drafts = [
   {
     id: "1",
-    thumbnail: "/thumbnails/1.jpg",
+    thumbnail: serverURL + "/thumbnails/1.jpg",
     name: "TITLE1",
     label: "EVENT",
     feeds: [
@@ -10,7 +12,7 @@ export const drafts = [
         name: "FEED1",
         duration: 5,
         type: "VIDEO",
-        content: "/feeds/1.mp4",
+        content: serverURL + "/feeds/1.mp4",
         position: {
           width: 100,
           position_x: 0,
@@ -24,7 +26,7 @@ export const drafts = [
             position_y: 0,
             width: 12,
             height: 12,
-            sticker: "/stickers/1.svg"
+            sticker: serverURL + "/stickers/1.svg"
           },
           {
             id: "2",
